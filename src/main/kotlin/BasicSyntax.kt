@@ -29,6 +29,6 @@ fun main() {
     vars()
     loops()
 
-    val square = Square(10).area
+    val square = Shape(10).area
     println("Area of the square is $square.")
 }
