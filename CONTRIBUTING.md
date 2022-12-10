@@ -1,17 +1,18 @@
 ## Contributing
+
 Contributions are what make the open source community such an amazing place to
 learn, inspire, and create. Any contributions you make are highly appreciated.
 
 **Here is how to do that.**
 
-  1. Fork this project
-  
-  2. Create your feature branch — `git checkout -b origin/NewCode`
+1. Fork this project
 
-  3. Commit your changes — `git commit -m "Mention what's new"`
+2. Create your feature branch — `git checkout -b origin/NewCode`
 
-  4. Push your changes — `git push origin origin/NewCode`
-  
-  5. Open a Pull Request
+3. Commit your changes — `git commit -m "Mention what's new"`
+
+4. Push your changes — `git push origin origin/NewCode`
+
+5. Open a Pull Request
 
 If you like this project, consider stargazing it. Thanks!
