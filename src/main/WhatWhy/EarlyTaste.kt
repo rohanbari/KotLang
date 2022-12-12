@@ -3,11 +3,12 @@
  * Nullable variables can be identified by their identifier followed by a question mark.
  */
 data class Person(val name: String, val age: Int? = null)
+
 fun main() {
     // List of Person objects.
     val people = listOf(
         Person("Rohan", 19),
-        Person("Dipak", 30),
+        Person("Dipak", 29),
         Person("Max")
     )
 
