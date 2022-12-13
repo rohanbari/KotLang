@@ -1,4 +1,4 @@
-package basics
+package com.rohanbari.basics
 
 /**
  * Evaluate the basics.max of two integers [x] and [y].

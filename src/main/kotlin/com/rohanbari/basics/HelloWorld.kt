@@ -1,4 +1,4 @@
-package basics
+package com.rohanbari.basics
 
 fun main(args: Array<String>) {
     println(

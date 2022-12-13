@@ -1,4 +1,4 @@
-package basics
+package com.rohanbari.basics
 
 /**
  * A value object class.

@@ -1,4 +1,4 @@
-package what_why
+package com.rohanbari.what_why
 
 /**
  * Data class accepting [name] and [age] as fields.
