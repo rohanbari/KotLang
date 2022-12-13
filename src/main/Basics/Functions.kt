@@ -7,22 +7,20 @@ fun main() {
     print("Input two numbers separated by a space: ")
     val input: String? = readlnOrNull()
 
-    val container = input?.split(Regex(" "))
+    val container = input?.split(" ")
 
     // Null check condition
-    if (container != null) {
-        if (container.isEmpty() || container.size > 2) {
-            println("Please provide two integer values only. No more, no less.")
-        }
-    } else {
-        println("Container is empty. Quitting.")
+    if (container.isNullOrEmpty() || container.size > 2) {
+        println("Please provide two integer values only. No more, no less.")
         return
     }
 
+    val list = container.toTypedArray().map { element -> element.toInt() }.toList()
+
     /* Dot call instead of nullable as further execution is guaranteed to have a non-null input. */
-    val x: String = container[0]
-    val y: String = container[1]
-    val maxValue : Int = max(x.toInt(), y.toInt())
+    val x = list[0]
+    val y = list[1]
+    val maxValue: Int = max(x, y)
 
     println("The values retrieved are $x and $y. The maximum value is $maxValue.")
 }
