@@ -5,9 +5,9 @@ fun max(x: Int, y: Int) = if (x > y) x else y
 
 fun main() {
     print("Input two numbers separated by a space: ")
-    val input: String? = readlnOrNull()
+    val input = readlnOrNull()
 
-    val container = input?.split(" ")
+    val container = input?.trim()?.split(" ")
 
     // Null check condition
     if (container.isNullOrEmpty() || container.size > 2) {
