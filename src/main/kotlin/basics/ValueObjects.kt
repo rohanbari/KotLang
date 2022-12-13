@@ -1,14 +1,16 @@
+package basics
+
 /**
  * A value object class.
  */
-data class Employee(val name: String, var salary: Int)
+data class Person(val name: String, var salary: Int)
 
 fun main() {
-    /* Declaring a list of value-object type Employee. */
+    /* Declaring a list of value-object type basics.Employee. */
     val empList = listOf(
-        Employee("Rohan Bari", 25000),
-        Employee("Dipak Bari", 60000),
-        Employee("Max Weber", 45000)
+        Person("Rohan Bari", 25000),
+        Person("Dipak Bari", 60000),
+        Person("Max Weber", 45000)
     )
 
     /* For each employee in empList, print their corresponding details. */

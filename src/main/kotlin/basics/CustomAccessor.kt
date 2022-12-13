@@ -1,3 +1,5 @@
+package basics
+
 data class Polygon(val height: Int, val width: Int) {
     /* Custom accessors (getter) which is not a field. */
     val isSquare

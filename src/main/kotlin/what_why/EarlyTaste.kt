@@ -1,3 +1,5 @@
+package what_why
+
 /**
  * Data class accepting [name] and [age] as fields.
  * Nullable variables can be identified by their identifier followed by a question mark.
