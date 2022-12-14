@@ -2,11 +2,8 @@ package com.rohanbari.basics
 
 data class Polygon(val height: Int, val width: Int) {
     /* Custom accessors (getter) which is not a field. */
-    val isSquare
-        get() = height == width
-
-    val isRectangle
-        get() = height != width
+    val isSquare get() = height == width
+    val isRectangle get() = height != width
 }
 
 fun main() {
