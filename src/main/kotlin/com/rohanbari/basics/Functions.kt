@@ -1,7 +1,11 @@
+/*
+ * Copyright (c) 2022 Rohan Bari
+ */
+
 package com.rohanbari.basics
 
 /**
- * Evaluate the basics.max of two integers [x] and [y].
+ * Evaluate the max of two integers [x] and [y].
  */
 fun max(x: Int, y: Int) = if (x > y) x else y
 

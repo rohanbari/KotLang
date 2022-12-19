@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2022 Rohan Bari
+ */
+
 package com.rohanbari.basics
 
 /**
@@ -15,6 +19,6 @@ fun main() {
 
     /* For each employee in empList, print their corresponding details. */
     for (emp in empList)
-        // When called, getters are involved. These are not accessed directly.
+    // When called, getters are involved. These are not accessed directly.
         println("${emp.name} earns \$${emp.salary} every month.")
 }
