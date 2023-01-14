@@ -15,7 +15,7 @@ fun main() {
     )
 
     // Null values will be treated as zero.
-    val youngest = people.minBy { it.name }
+    val youngest = people.minBy { it.age }
     val oldest = people.maxBy { it.age }
 
     println("Youngest is ${youngest.name} and oldest is ${oldest.name}.")
