@@ -5,7 +5,7 @@
 The secure and guaranteed SemVar are listed below.
 
 | Version | Supported          |
-|---------|--------------------|
+| ------- | ------------------ |
 | 1.0     | :heavy_check_mark: |
 
 ## Reporting a Vulnerability
