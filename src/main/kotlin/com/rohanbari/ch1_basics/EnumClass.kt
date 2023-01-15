@@ -1,4 +1,4 @@
-package com.rohanbari.basics
+package com.rohanbari.ch1_basics
 
 /**
  * An enum class accepting a [name].

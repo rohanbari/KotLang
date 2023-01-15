@@ -1,4 +1,4 @@
-package com.rohanbari.what_why
+package com.rohanbari.ch0_what_why
 
 /**
  * Data class accepting [name] and [age] as fields.

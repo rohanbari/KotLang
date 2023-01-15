@@ -2,7 +2,7 @@
  * Copyright (c) 2022 Rohan Bari
  */
 
-package com.rohanbari.basics
+package com.rohanbari.ch1_basics
 
 /**
  * Evaluate the max of two integers [x] and [y].
