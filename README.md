@@ -2,7 +2,7 @@
 
 **Welcome to the KotLang repository!**
 
-I'm learning C++ at the next level. The source code is available under the
+I'm learning Kotlin in IDEA. The source code is available under the
 [`src`](./src) directory. You are free to make relevant changes to my code to
 make it better and helpful for the future visitors.
 
